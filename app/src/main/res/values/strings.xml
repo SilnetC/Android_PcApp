@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">PC Config Project</string>
+    <string name="emailAddress">Email cím</string>
+    <string name="password">Jelszó</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="name">Név</string>
+    <string name="passwordCheck">Jelszó megerősítése</string>
+    <string name="back">Vissza</string>
+    <string name="pcName">Config neve</string>
+    <string name="delete">Törlés</string>
+    <string name="edit">Szerkesztés</string>
+    <string name="ssd">SSD:</string>
+    <string name="gephaz">Gépház:</string>
+    <string name="add">Hozzáadás</string>
+    <string name="compare">Összehasonlítás</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="addConfig">Konfiguráció hozzáadása</string>
+    <string name="compareConfig">Konfiguráció összehasonlítása</string>
+    <string name="createNewConfig">Konfiguráció létrehozása</string>
+    <string name="newConfigName">Konfig neve</string>
+    <string name="save">Mentés</string>
+    <string name="editConfigText">Konfiguráció szerkesztése</string>
+    <string name="compareConfigText">Konfigok Összehasonlítása</string>
+    <string name="config_2">Config 2:</string>
+    <string name="config_1">Config 1:</string>
+    <string name="vissza">Vissza</string>
+
+    <string-array name="configNames">
+        <item>Amd build</item>
+        <item>Intel build</item>
+        <item>Random build</item>
+        <item>My secret build</item>
+    </string-array>
+
+    <string-array name="configCpu">
+        <item>AMD Ryzen 5 2600</item>
+        <item>Intel core i9 9900K</item>
+        <item>Intel core i3</item>
+        <item>AMD Ryzen 5 2600x</item>
+    </string-array>
+
+    <string-array name="configMobo">
+        <item>Asus Rog Strx B450-F</item>
+        <item>Asus Rog Strx B550-F</item>
+        <item>Asus Rog Strx Z490-F</item>
+        <item>Asus Rog Strx B450-E</item>
+    </string-array>
+
+    <string-array name="configRam">
+        <item>G-Skill Trident Z 32GB 4000Mhz</item>
+        <item>G-Skill Trident Z 16GB 4000Mhz</item>
+        <item>G-Skill Trident Z 32GB 4000Mhz</item>
+        <item>G-Skill Trident Z 64GB 4000Mhz</item>
+    </string-array>
+
+    <string-array name="configGpu">
+        <item>Asus Rog Geforce RTX 4090</item>
+        <item>Asus Rog Geforce RTX 4090</item>
+        <item>Asus Rog Geforce RTX 4090</item>
+        <item>Asus Rog Geforce RTX 4090</item>
+    </string-array>
+
+    <string-array name="configPsu">
+        <item>Seasonic 850W Gold</item>
+        <item>Seasonic 850W Gold</item>
+        <item>Seasonic 850W Gold</item>
+        <item>Seasonic 850W Gold</item>
+    </string-array>
+
+    <string-array name="configPcCase">
+        <item>Fractal Design North Black</item>
+        <item>Fractal Design North Black</item>
+        <item>Fractal Design North Black</item>
+        <item>Fractal Design North Black</item>
+    </string-array>
+
+    <string-array name="configSsd">
+        <item>Kingston 1TB NvMe</item>
+        <item>Kingston 1TB NvMe</item>
+        <item>Kingston 1TB NvMe</item>
+        <item>Kingston 1TB NvMe</item>
+    </string-array>
+
+    <array name="configImages">
+        <item>@drawable/gamerpc</item>
+        <item>@drawable/gamerpc</item>
+        <item>@drawable/gamerpc</item>
+        <item>@drawable/gamerpc</item>
+    </array>
+
+    //Parts
+    <string-array name="cpuList">
+        <item>Intel Core i3-13100F</item>
+        <item>Intel Core i3-14100F</item>
+        <item>Intel Core i5-13600K</item>
+        <item>Intel Core i9-14900k</item>
+        <item>AMD Ryzen 3 4300G</item>
+        <item>AMD Ryzen 5 5600X</item>
+        <item>AMD Ryzen 7 5700X</item>
+        <item>AMD Ryzen 9 5950X</item>
+    </string-array>
+
+    <string-array name="moboList">
+        <item>Asus Rog Strix B450-F</item>
+        <item>Gigabyte B760M</item>
+        <item>Asrock Z490 Steel Legend</item>
+        <item>Asus Rog Strix B760M</item>
+        <item>Asus Prime B760</item>
+        <item>Asus TUF Gaming B450</item>
+        <item>Asus Rog Strix B450-F Gamin II</item>
+        <item>Asus Prime B760M</item>
+    </string-array>
+
+    <string-array name="ramList">
+        <item>Kingston Fury Beast 8GB DDR4 3200Mhz</item>
+        <item>Kingston Fury Beast 16GB DDR4 3200Mhz</item>
+        <item>Kingston Fury Beast 32GB DDR4 3200Mhz</item>
+        <item>G.Skill Trident Z 16GB DDR4 3600Mhz</item>
+        <item>G.Skill Trident Z 32GB DDR4 3600Mhz</item>
+        <item>G.Skill Trident Z 64GB DDR4 3600Mhz</item>
+    </string-array>
+
+    <string-array name="gpuList">
+        <item>Asus Geforce RTX 4060 8GB</item>
+        <item>Asus Geforce RTX 4070 Super 12GB</item>
+        <item>Asus Geforce RTX 4090 24GB</item>
+        <item>Asus Radeon RX 6600 8GB</item>
+    </string-array>
+
+    <string-array name="psuList">
+        <item>Seasonic Focus GX-850W GOLD</item>
+        <item>Seasonic Focus GX-750W GOLD</item>
+        <item>FSP Hexa Pro 450W</item>
+        <item>Corsair RX 850X 850W GOLD</item>
+    </string-array>
+
+    <string-array name="pcCaseList">
+        <item>Fractal Design North</item>
+        <item>Fractal Design Terra</item>
+        <item>NZXT H5 ATX</item>
+    </string-array>
+
+    <string-array name="ssdList">
+        <item>Samsung NV2 1TB NVMe</item>
+        <item>Samsung 970 EVO Plus 250GB</item>
+        <item>ADATA Legend 800 1TB NVMe</item>
+    </string-array>
+
+</resources>

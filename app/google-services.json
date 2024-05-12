@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "805438047365",
+    "project_id": "androidpcconfig",
+    "storage_bucket": "androidpcconfig.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805438047365:android:cd2967bb32a25a6e8c55ec",
+        "android_client_info": {
+          "package_name": "com.example.pcconfigproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw_oc56-6KYv4nHKUjU0zOZNph5hfhJWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

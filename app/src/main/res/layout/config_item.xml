@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/configImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/configNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/configImage"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:layout_centerHorizontal="true"
+            android:text="Konfiguráció neve"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/moboTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/configNameTitle"
+            android:padding="8dp"
+            android:text="Alaplap:" />
+
+        <TextView
+            android:id="@+id/cpuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/moboTitle"
+            android:padding="8dp"
+            android:text="Processzor:" />
+
+        <TextView
+            android:id="@+id/ramTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cpuTitle"
+            android:padding="8dp"
+            android:text="Memória:" />
+
+        <TextView
+            android:id="@+id/gpuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ramTitle"
+            android:padding="8dp"
+            android:text="Videókártya:" />
+
+        <TextView
+            android:id="@+id/psuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gpuTitle"
+            android:padding="8dp"
+            android:text="Tápegység:" />
+
+        <TextView
+            android:id="@+id/caseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/psuTitle"
+            android:padding="8dp"
+            android:text="@string/gephaz" />
+
+        <TextView
+            android:id="@+id/ssdTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/caseTitle"
+            android:padding="8dp"
+            android:text="@string/ssd" />
+
+        <Button
+            android:id="@+id/editConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/ssdTitle"
+            android:text="@string/edit"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/deleteConfigButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/editConfig"
+            android:text="@string/delete"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
